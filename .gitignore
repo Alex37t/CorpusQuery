@@ -1,0 +1,11 @@
+# Ignore Streamlit secrets file
+.streamlit/secrets.toml
+
+#ignore the embedded databases
+chroma_db_rag/
+
+__pycache__/
+*.pyc
+
+venv/
+env/
