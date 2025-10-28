@@ -78,11 +78,11 @@ streamlit run app.py
 
 To launch the application via the terminal:
 
-* **Interactive Mode:**
+  *Interactive Mode:*
   ```bash
   python cli.py
   ```
-* **Direct Question:**
+  *Direct Question:*
   ```bash
   python cli.py --question  "According to the author, what is the relationship between x and y?"
   ```
@@ -111,7 +111,7 @@ python cli.py --rebuild-db
 
 **GUI:**
 
-1. **Stop the Streamlit app** (`Ctrl+C`) in the terminal).
+1. **Stop the Streamlit app** (`Ctrl+C`) in the terminal.
 2. **Delete the `chroma_db_rag` folder** in your project directory.
 3. **Restart the app** with `streamlit run app.py`.
 
