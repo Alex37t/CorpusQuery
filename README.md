@@ -17,8 +17,7 @@ documents (PDFs, EPUBs) into a knowledge engine that answers your queries.
 
 **1. Install Pandoc (Required for EPUB support)**
 
-* Download the official Pandoc installer for your operating system from the *
-  *[ releases page](https://github.com/jgm/pandoc/releases)**.
+* Download the official Pandoc installer for your operating system from the **[ releases page](https://github.com/jgm/pandoc/releases)**.
 * Run the installer to complete the setup.
 
 **2. Clone the Repository & Install Python Dependencies**
@@ -85,7 +84,7 @@ To launch the application via the terminal:
   ```
 * **Direct Question:**
   ```bash
-  python cli.py --question  "According to the author, what is the relationship between x and y?
+  python cli.py --question  "According to the author, what is the relationship between x and y?"
   ```
 
   *To ask a broad question requiring more context:*
