@@ -136,7 +136,7 @@ Constants are defined at the top of the `rag_backend.py` file and can be edited 
 | Constant | Default Value | Description |
 | :--- | :--- | :--- |
 | `EMBEDDING_MODEL_NAME`| `models/gemini-embedding-001` | The model used to generate embeddings. |
-| `LLM_MODEL_NAME` | `gemini-2.5-pro` | Main LLM model for generating answers. |
+| `LLM_MODEL_NAME` | `gemini-3-flash-preview` | Main LLM model for generating answers. |
 | `BATCH_SIZE` | `25` | Number of chunks to embed in a single API call during database creation. |
 | `SECONDS_BETWEEN_REQUESTS` | `1.0` | Seconds to pause between database embedding requests. |
 
