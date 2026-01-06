@@ -13,7 +13,7 @@ from langchain_classic.retrievers import MultiQueryRetriever
 
 # --- Configuration Constants ---
 EMBEDDING_MODEL_NAME = "models/gemini-embedding-001"
-LLM_MODEL_NAME = "gemini-2.5-pro"
+LLM_MODEL_NAME = "gemini-3-flash-preview"
 DOCS_DIRECTORY = 'docs'
 VECTOR_DB_DIRECTORY = 'chroma_db_rag'
 # Batched embedding in case of API rate limits
